@@ -1,32 +1,43 @@
 import React, { memo, useEffect } from 'react'
 import { HomeWrapper } from './style'
-import { Carousel } from 'antd';
-import { CarouselItem } from './style';
 import iconsData from '@/assets/local-data/icons.json'
+import { useLocation } from 'react-router';
+import axios from 'axios';
+import pastExperienceData from '@/assets/local-data/past-experience.json'
+import CarouselSection from './c-cpns/CarouselSection/CarouselSection';
+import Tabs from '@/components/Tabs/Tabs';
+import HomeFooter from './c-cpns/HomeFooter/HomeFooter';
 
 
 
 const Home = memo(() => {
+  // use location to get the current path
+  const location = useLocation();
+
+  // use axios to get data from the server
+  useEffect(() => {
+    if (location.pathname === '/home') {
+      console.log('home')
+    }
+  }, [])
+
   return (
     <HomeWrapper>
-      {iconsData.map(item => (
-        <div className="item" key={item.itemId}>
-          <Carousel arrows infinite={false} className='ant-carousel'>
-            {item.imgUrl.length >= 1 ? (
-              item.imgUrl.map((img, index) => (
-                <CarouselItem $imgurl={img} key={index} />
-              ))
-            ) : (
-              <div>No image available now</div>
-            )}
-          </Carousel>
-          <div className="text">
-            <div className="title">{item.title}</div>
-            <div className="host">{item.host}</div>
-            <div className="info">{item.otherInfo}</div>
+      <Tabs></Tabs>
+      <CarouselSection data={iconsData} />
+      {
+        location.pathname === '/home' ? (
+          <div className='past-experience'>
+            <div className="section-title">
+              Past experiences
+            </div>
+            <CarouselSection data={pastExperienceData} />
           </div>
-        </div>
-      ))}
+        ) : ""
+      }
+      <div className="footer">
+        <HomeFooter></HomeFooter>
+      </div>
     </HomeWrapper>
   );
 });
