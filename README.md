@@ -3,4 +3,4 @@
 ## Development Log
 20/08/2024: Create app and did some initial setup.
 
-21/08/2024: Header and Footer done, use local iconData.json file to test Home Page's items' display.
+21/08/2024: Header and Footer done, used local iconData.json file to test Home Page's items' display.
