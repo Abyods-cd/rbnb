@@ -1,0 +1,49 @@
+[
+  {
+    "itemId": 0,
+    "title": "Sleepover at Polly Pocket’s Compact",
+    "host": "Hosted by Polly Pocket",
+    "otherInfo": "$120 SGD per guest",
+    "imgUrl": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NzY2MTYzNDg4MjE2ODY1Nw%3D%3D/original/a332d020-4315-4f63-af71-444d46474939.png?im_w=1440&im_q=highq",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NzY2MTYzNDg4MjE2ODY1Nw%3D%3D/original/22899932-b8bd-41b2-bd5a-1c913efe4c05.png?im_w=1440&im_q=highq",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NzY2MTYzNDg4MjE2ODY1Nw%3D%3D/original/e1a5e621-291c-42ad-990c-534c453ac1df.png?im_w=1440&im_q=highq",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NzY2MTYzNDg4MjE2ODY1Nw%3D%3D/original/9065b1e9-6b2f-4db7-9032-d39dc53416fb.png?im_w=1440&im_q=highq"
+    ]
+  },
+  {
+    "itemId": 1,
+    "title": "Playdate at Polly Pocket’s Compact",
+    "host": "Hosted by Polly Pocket",
+    "otherInfo": "$48 SGD per guest",
+    "imgUrl": ["https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE4NzE3Nzg1NDA2MjM5NzY2NQ%3D%3D/original/6989d581-3f67-4cd9-8cb6-5f5c226aedc6.png?im_w=1440&im_q=highq"]
+  },
+  {
+    "itemId": 2,
+    "title": "Go VIP with Kevin Hart",
+    "host": "Hosted by Kevin Hart",
+    "otherInfo": "$100 SGD per guest",
+    "imgUrl": ["https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA4NzY0ODgzNzUzNjQzNw%3D%3D/original/1077cfcd-29d5-42b7-adab-19e0b620e492.jpeg?im_w=1440&im_q=highq"]
+  },
+  {
+    "itemId": 3,
+    "title": "Join a living room session with Doja",
+    "host": "Hosted by Doja Cat",
+    "otherInfo": "Coming October",
+    "imgUrl": ["https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNjMyMzc5Mzc2MTc3OTEzMg%3D%3D/original/01819c16-43a1-4aee-9957-9edce6eb8e16.png?im_w=1440&im_q=highq"]
+  },
+  {
+    "itemId": 4,
+    "title": "Stay in Prince’s Purple Rain house",
+    "host": " Hosted by Wendy and Lisa",
+    "otherInfo": "Coming October",
+    "imgUrl": ["https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA4OTQ5ODA0MDcwMTE4Mw%3D%3D/original/4f7a276e-9995-4b32-bda6-300de0619b25.png?im_w=1440&im_q=highq"]
+  },
+  {
+    "itemId": 5,
+    "title": "Train at the X-Mansion",
+    "host": "Hosted by Jubilee",
+    "otherInfo": "Booking Closed",
+    "imgUrl": ["https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNjIzMTk3NDU3MjE4Nzg2NA%3D%3D/original/f4cbe542-3ce0-4c6f-a8f1-d2120c1b2420.jpeg?im_w=1440&im_q=highq"]
+  }
+]
