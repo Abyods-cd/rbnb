@@ -45,7 +45,6 @@ const CarouselSection = memo(({ data }) => {
     if (item.past === "true" || Number(item.itemId) > 3) {
       // show random (id = 0-3) item's detail page because only mock the first 4 items' detail page
       const randomId = Math.floor(Math.random() * 4);
-      console.log(randomId)
       dispatch(changeDisplayedItem(iconsData[randomId]))
     }
     navigate('/detail');

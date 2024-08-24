@@ -4,7 +4,7 @@ import axios from 'axios';
 class AxiosInstance {
   constructor() {
     this.axiosInstance = axios.create({
-      baseURL: 'http://codercba.com:1888/airbnb/api',  // Hardcoded base URL
+      baseURL: 'https://apifoxmock.com/m1/5047831-4708745-default/',  // Hardcoded base URL
       timeout: 10000,  // Set the request timeout in milliseconds
       headers: {
         'Content-Type': 'application/json',  // Default request header

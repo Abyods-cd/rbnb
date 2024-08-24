@@ -10,3 +10,5 @@
 23/08/2024: Home Page's footer done, started working on Detail page and finished images display section.
 
 24/08/2024: Detail Page done.
+
+25/08/2024: 1. Used cloud mock api to get all data needed, instead of using local JSON data. 2. Fixed several bugs, including side effect caused by page navigation.
