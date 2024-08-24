@@ -1,14 +1,42 @@
 # Rbnb - A React Practice Project Inspired by Airbnb's Official Website
 
+## Project Overview
+
+Rbnb is a React application inspired by Airbnb's official website, designed to help users explore and book accommodations. The project leverages **React 18** and modern web technologies to deliver a responsive and interactive experience. 🌟
+
+## Key Features
+
+- **Routing**: Implemented with React Router, enabling smooth navigation across the application. 🗺️
+- **State Management**: Managed using Redux for consistent application state. 📦
+- **Home Page**: Includes sections for past experiences, a reusable Carousel component, and a Share Panel component. 🏡
+- **Detail Page**: Displays detailed accommodation information and an image gallery. 🖼️
+- **Data Handling**: Transitioned from local JSON data to a cloud mock API for dynamic data retrieval. 🌐
+
+## Technical Stack
+
+- **React 18**: The core library for building the user interface, utilizing the latest features for improved performance and user experience. ⚛️
+- **Redux**: For managing global state and application data flow. 🔄
+- **React Router**: For routing and navigation throughout the app. 🚪
+- **Styled-Components**: For component-level styling with CSS-in-JS. 🎨
+- **Axios**: For making HTTP requests and handling API interactions. 🌍
+- **Component Libraries**: Utilizing both **Ant Design** and **MUI** (Material-UI) for a rich set of high-quality UI components. 🏗️
+- **Apifox**: Used for API mocking and testing, enhancing the development workflow and data simulation. 🧪
+- **Craco**: For customizing the Create React App configuration. ⚙️
+
+## Mock Data Tools
+
+Initially, Postman was used to mock API data. Later, the tool was switched to Apifox for improved functionality and ease of use. 🛠️
+
 ## Development Log
-20/08/2024: Created project and did some initial setup.
 
-21/08/2024: Header and Footer done, used local iconData.json file to test Home Page's items' display.
+- **20/08/2024**: Created project and did some initial setup. 🛠️
+- **21/08/2024**: Completed Header and Footer; used local `iconData.json` for testing Home Page's item display. 📄
+- **22/08/2024**: Added past experiences section to Home Page; created a reusable Carousel component and Share Panel component. 🔄
+- **23/08/2024**: Finished Home Page's footer; started working on Detail page and completed image display section. 🖼️
+- **24/08/2024**: Completed Detail Page. ✅
+- **25/08/2024**: 
+  1. Switched to cloud mock API for data retrieval, replacing local JSON data. ☁️
+  2. Fixed several bugs, including those caused by page navigation issues. 🐛
 
-22/08/2024: Added past experiences section of Home Page, extracted and encapsulated a reusable Carousel component to display data and added Share Panel component.
 
-23/08/2024: Home Page's footer done, started working on Detail page and finished images display section.
 
-24/08/2024: Detail Page done.
-
-25/08/2024: 1. Used cloud mock api to get all data needed, instead of using local JSON data. 2. Fixed several bugs, including side effect caused by page navigation.
