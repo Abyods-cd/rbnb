@@ -15,11 +15,11 @@ const Home = memo(() => {
   const location = useLocation();
 
   // use axios to get data from the server
-  useEffect(() => {
-    if (location.pathname === '/home') {
-      console.log('home')
-    }
-  }, [])
+  // useEffect(() => {
+  //   if (location.pathname === '/home') {
+  //     console.log('home')
+  //   }
+  // }, [])
 
   return (
     <HomeWrapper>

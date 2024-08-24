@@ -6,6 +6,8 @@ import SharePanel from '../SharePanel/SharePanel';
 import { useDispatch } from 'react-redux';
 import { useSelector } from 'react-redux';
 import { setSelectedItem } from '@/store/modules/home.js';
+import { useNavigate } from 'react-router';
+import { changeDisplayedItem } from '@/store/modules/detail.js';
 
 const CarouselSection = memo(({ data }) => {
   // set showSharePanel to false
@@ -29,6 +31,17 @@ const CarouselSection = memo(({ data }) => {
     setShowSharePanel(false);
   }
 
+  // useNavigate to navigate to /detail page
+  const navigate = useNavigate();
+
+  // function to handle the item click
+  function itemClickHandler(imgUrl, title, item) {
+    // dispatch actions to set state of home slice and detail slice
+    dispatch(setSelectedItem({ imgUrl, title }))
+    dispatch(changeDisplayedItem(item));
+    // navigate to /detail page
+    navigate('/detail')
+  }
 
   return (
     <CarouselSectionWrapper>
@@ -38,15 +51,15 @@ const CarouselSection = memo(({ data }) => {
           <Carousel arrows infinite={false} className={`ant-carousel, ${item.imgUrl.length === 1 ? "hide-dots" : ""}`}>
             {item.imgUrl.length >= 1 ? (
               item.imgUrl.map((img, index) => (
-                <CarouselItem $imgurl={img} key={index} />
+                <CarouselItem $imgurl={img} key={index} onClick={() => itemClickHandler(img, item.title, item)} />
               ))
             ) : (
               <div>No image available now</div>
             )}
           </Carousel>
-          <div className="text">
+          <div className="text" onClick={() => itemClickHandler(item.imgUrl[0], item.title, item)}>
             <div className="title">{item.title}</div>
-            <div className="host">{item.host}</div>
+            <div className="host">Hosted by {item.host.hostName}</div>
             <div className="info">{item.otherInfo}</div>
           </div>
         </div>

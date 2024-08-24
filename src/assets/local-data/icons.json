@@ -1,8 +1,13 @@
 [
   {
     "itemId": 0,
+    "icons": "true",
     "title": "Sleepover at Polly Pocket’s Compact",
-    "host": "Hosted by Polly Pocket",
+    "host": {
+      "hostName": "Polly Pocket",
+      "hostImgUrl": "https://a0.muscache.com/im/pictures/user/User-583132701/original/2b0c3adc-f9c5-4d35-82dd-a5ecd202762c.jpeg?im_w=240",
+      "hostProfession": "Big adventurer"
+    },
     "otherInfo": "$120 SGD per guest",
     "imgUrl": [
       "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NzY2MTYzNDg4MjE2ODY1Nw%3D%3D/original/a332d020-4315-4f63-af71-444d46474939.png?im_w=1440&im_q=highq",
@@ -10,45 +15,61 @@
       "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NzY2MTYzNDg4MjE2ODY1Nw%3D%3D/original/e1a5e621-291c-42ad-990c-534c453ac1df.png?im_w=1440&im_q=highq",
       "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NzY2MTYzNDg4MjE2ODY1Nw%3D%3D/original/9065b1e9-6b2f-4db7-9032-d39dc53416fb.png?im_w=1440&im_q=highq",
       "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE3NzY2MTYzNDg4MjE2ODY1Nw%3D%3D/original/c41bc3fa-22af-4d26-b70d-fd522fd96200.png?im_w=1440&im_q=highq"
-    ]
+    ],
+    "detailHTML": "<span>Hi, friends! Sleepover at my place! You in? I’ll be off on a 35th birthday adventure, but my life-sized Slumber Party Fun compact is all yours for the night. I left everything just the way you remember it—from all the way back in ’94! Can you believe it’s been that long?! Anyway, grab your BFFs, because I set up a retro bash that’s sure to be a blast!<br><br><span class='html-title'>What you’ll do</span><br>’90s kids rule at sleepovers. But you already knew that. So I wanted this sleepover to feel like you’re still actually in the ’90s! Just picture it—crafting, throwback snacks, Polaroid cameras… it’s going to be AMAZING. Basically, I turned my Slumber Party Fun compact into a time machine where your imagination can run wild. Because there’s no greater adventure than the one you create for yourself. <br><br>Here’s the 411—let’s do this!<br><br>• I stocked my picnic table with colorful threads, cool charms, and a collection of beads. Use them to express undying love to your bestie like only a ‘90s kid can—with homemade  jewelry. You can even make one for me! Just remember, my wrists are very small.<br> <br>• Try on my most iconic outfits—yes, the ones you used to chew on when you were younger—in my closet. They slip on right over your clothes and are extremely chic. No bite marks, please!<br><br>• Remember when we used to give each other makeovers and gab until morning? Well, my vanity has everything you need to relive that magic. Press-on nails and butterfly hair clips, anyone?!<br><br>• Be kind, unwind, and rewind with a movie marathon on literal video cassettes. Remember those?! The couch pulls out, so snuggle up. BYOB (Bring Your Own Blanket). <br><br>• My compact is stuffed to the brim with all my favorite snacks from the greatest era in snacking history. Ring Pops and Push Pops and Baby Bottle Pops, oh my!<br><br>• At night, embrace the outdoors and camp out under the stars in my Action Park Tent. Whisper secrets, tell ghost stories, and giggle into the night while cozying up in one of the four sleeping bags I left for you.<br><br><span class='html-title'>Other things to note</span><br>My compact doesn’t close because, like me, it’s always open to adventure.</span>"
   },
   {
     "itemId": 1,
+    "icons": "true",
     "title": "Playdate at Polly Pocket’s Compact",
     "host": "Hosted by Polly Pocket",
     "otherInfo": "$48 SGD per guest",
-    "imgUrl": ["https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE4NzE3Nzg1NDA2MjM5NzY2NQ%3D%3D/original/6989d581-3f67-4cd9-8cb6-5f5c226aedc6.png?im_w=1440&im_q=highq"]
+    "imgUrl": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE4NzE3Nzg1NDA2MjM5NzY2NQ%3D%3D/original/6989d581-3f67-4cd9-8cb6-5f5c226aedc6.png?im_w=1440&im_q=highq"
+    ]
   },
   {
     "itemId": 2,
+    "icons": "true",
     "title": "Go VIP with Kevin Hart",
     "host": "Hosted by Kevin Hart",
     "otherInfo": "$100 SGD per guest",
-    "imgUrl": ["https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA4NzY0ODgzNzUzNjQzNw%3D%3D/original/1077cfcd-29d5-42b7-adab-19e0b620e492.jpeg?im_w=1440&im_q=highq",
-    "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA4NzY0ODgzNzUzNjQzNw%3D%3D/original/cc8db640-21c8-41a9-8af1-7ede1eb456ee.jpeg?im_w=1440&im_q=highq",
-    "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA4NzY0ODgzNzUzNjQzNw%3D%3D/original/23360a01-96e5-4151-8ca5-3d3a7cae65c7.jpeg?im_w=1440&im_q=highq",
-    "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA4NzY0ODgzNzUzNjQzNw%3D%3D/original/16acfa7e-8ef9-408f-9caa-cc6c335b5fda.jpeg?im_w=1440&im_q=highq"
-  ]
+    "imgUrl": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA4NzY0ODgzNzUzNjQzNw%3D%3D/original/1077cfcd-29d5-42b7-adab-19e0b620e492.jpeg?im_w=1440&im_q=highq",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA4NzY0ODgzNzUzNjQzNw%3D%3D/original/cc8db640-21c8-41a9-8af1-7ede1eb456ee.jpeg?im_w=1440&im_q=highq",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA4NzY0ODgzNzUzNjQzNw%3D%3D/original/23360a01-96e5-4151-8ca5-3d3a7cae65c7.jpeg?im_w=1440&im_q=highq",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA4NzY0ODgzNzUzNjQzNw%3D%3D/original/16acfa7e-8ef9-408f-9caa-cc6c335b5fda.jpeg?im_w=1440&im_q=highq"
+    ]
   },
   {
     "itemId": 3,
+    "icons": "true",
     "title": "Join a living room session with Doja",
     "host": "Hosted by Doja Cat",
     "otherInfo": "Coming October",
-    "imgUrl": ["https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNjMyMzc5Mzc2MTc3OTEzMg%3D%3D/original/01819c16-43a1-4aee-9957-9edce6eb8e16.png?im_w=1440&im_q=highq"]
+    "imgUrl": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNjMyMzc5Mzc2MTc3OTEzMg%3D%3D/original/01819c16-43a1-4aee-9957-9edce6eb8e16.png?im_w=1440&im_q=highq"
+    ],
+    "detailHTML": "Fresh from headlining festivals and my European tour, I’m bringing my very special show directly to you in an intimate living room environment. Music is my passion, I can’t wait to share that piece of my world with you in a way you’ll never forget. Kick it with me, and my cats. More details coming soon."
   },
   {
     "itemId": 4,
+    "icons": "true",
     "title": "Stay in Prince’s Purple Rain house",
     "host": " Hosted by Wendy and Lisa",
     "otherInfo": "Coming October",
-    "imgUrl": ["https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA4OTQ5ODA0MDcwMTE4Mw%3D%3D/original/4f7a276e-9995-4b32-bda6-300de0619b25.png?im_w=1440&im_q=highq"]
+    "imgUrl": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA4OTQ5ODA0MDcwMTE4Mw%3D%3D/original/4f7a276e-9995-4b32-bda6-300de0619b25.png?im_w=1440&im_q=highq"
+    ]
   },
   {
     "itemId": 5,
+    "icons": "true",
     "title": "Train at the X-Mansion",
     "host": "Hosted by Jubilee",
     "otherInfo": "Booking Closed",
-    "imgUrl": ["https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNjIzMTk3NDU3MjE4Nzg2NA%3D%3D/original/f4cbe542-3ce0-4c6f-a8f1-d2120c1b2420.jpeg?im_w=1440&im_q=highq"]
+    "imgUrl": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNjIzMTk3NDU3MjE4Nzg2NA%3D%3D/original/f4cbe542-3ce0-4c6f-a8f1-d2120c1b2420.jpeg?im_w=1440&im_q=highq"
+    ]
   }
 ]

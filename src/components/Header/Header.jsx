@@ -5,10 +5,11 @@ import HeaderCenter from './c-cpns/HeaderCenter/HeaderCenter'
 import HeaderRight from './c-cpns/HeaderRight/HeaderRight'
 
 
+
 const Header = memo(() => {
   return (
     <HeaderWrapper>
-      <HeaderLeft className='left' />
+      <HeaderLeft className='left'/>
       <HeaderCenter className='center' />
       <HeaderRight className='right' />
 

@@ -1,6 +1,7 @@
 [
   {
     "itemId": 0,
+    "icons": "true",
     "title": "Live like Bollywood star Janhvi Kapoor",
     "host": "Hosted by Janhvi Kapoor",
     "otherInfo": "Sold out",
@@ -15,6 +16,7 @@
   },
   {
     "itemId": 1,
+    "icons": "true",
     "title": "Open the Olympic Games at Musée d’Orsay",
     "host": "Hosted by Mathieu Lehanneur",
     "otherInfo": "Sold out",
@@ -25,6 +27,7 @@
   },
   {
     "itemId": 2,
+    "icons": "true",
     "title": "Wake up in the Musée d’Orsay",
     "host": "Hosted by Mathieu Lehanneur",
     "otherInfo": "Sold out",
@@ -34,6 +37,7 @@
   },
   {
     "itemId": 3,
+    "icons": "true",
     "title": "Make core memories with Inside Out 2",
     "host": "Hosted by Joy",
     "otherInfo": "Sold out",
@@ -43,6 +47,7 @@
   },
   {
     "itemId": 4,
+    "icons": "true",
     "title": "Design your Incredibles Supersuit",
     "host": "Hosted by Edna Mode",
     "otherInfo": "Sold out",
@@ -52,6 +57,7 @@
   },
   {
     "itemId": 5,
+    "icons": "true",
     "title": "Go on tour with Feid",
     "host": "Hosted by Feid",
     "otherInfo": "Sold out",
@@ -61,6 +67,7 @@
   },
   {
     "itemId": 6,
+    "icons": "true",
     "title": "Game with Khaby Lame",
     "host": "Hosted by Khaby Lame",
     "otherInfo": "Sold out",
@@ -70,6 +77,7 @@
   },
   {
     "itemId": 7,
+    "icons": "true",
     "title": "Crash at the X-Mansion",
     "host": "Hosted by Jubilee",
     "otherInfo": "Sold out",
@@ -79,6 +87,7 @@
   },
   {
     "itemId": 8,
+    "icons": "true",
     "title": "Spend the night in the Ferrari Museum",
     "host": "Hosted by Marc Gené",
     "otherInfo": "Sold out",
@@ -88,6 +97,7 @@
   },
   {
     "itemId": 9,
+    "icons": "true",
     "title": "Drift off in the Up house",
     "host": "Hosted by Carl Fredricksen",
     "otherInfo": "Sold out",
@@ -97,6 +107,7 @@
   },
   {
     "itemId": 10,
+    "icons": "true",
     "title": "Shrek’s Swamp",
     "host": "Hosted by Donkey",
     "otherInfo": "Sold out",
@@ -106,6 +117,7 @@
   },
   {
     "itemId": 11,
+    "icons": "true",
     "title": "Barbie’s Malibu DreamHouse, Ken’s Way",
     "host": "Hosted by Ken",
     "otherInfo": "Sold out",
@@ -115,6 +127,7 @@
   },
   {
     "itemId": 12,
+    "icons": "true",
     "title": "Ted Lasso’s Favorite Pub",
     "host": "Hosted by Mae",
     "otherInfo": "Sold out",
@@ -124,6 +137,7 @@
   },
   {
     "itemId": 13,
+    "icons": "true",
     "title": "Houseplant Retreat",
     "host": "Hosted by Seth Rogen",
     "otherInfo": "Sold out",
@@ -133,6 +147,7 @@
   },
   {
     "itemId": 14,
+    "icons": "true",
     "title": "Home Alone Holiday",
     "host": "Hosted by Buzz",
     "otherInfo": "Sold out",
@@ -142,6 +157,7 @@
   },
   {
     "itemId": 15,
+    "icons": "true",
     "title": "The Last Blockbuster",
     "host": "Hosted by Sandi",
     "otherInfo": "Sold out",

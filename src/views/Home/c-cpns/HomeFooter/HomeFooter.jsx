@@ -1,61 +1,47 @@
-import React, { memo } from 'react'
+import React, { memo, useState } from 'react'
 import { HomeFooterWrapper } from './style'
 import { Tabs } from 'antd';
+import homeFooterItems from '@/assets/local-data/home-footer.json'
 
 const HomeFooter = memo(() => {
-  const onChange = (key) => {
-    console.log(key);
-  };
-  const items = [
-    {
-      key: '0',
-      label: 'Popular',
-      children: 'Content of Tab Pane 1',
-    },
-    {
-      key: '1',
-      label: 'Arts & culture',
-      children: 'Content of Tab Pane 2',
-    },
-    {
-      key: '2',
-      label: 'Outdoors',
-      children: 'Content of Tab Pane 3',
-    },
-    {
-      key: '3',
-      label: 'Mountains',
-      children: 'Content of Tab Pane 2',
-    }, 
-    {
-      key: '4',
-      label: 'Beach',
-      children: 'Content of Tab Pane 2',
-    },
-    {
-      key: '5',
-      label: 'Unique stays',
-      children: 'Content of Tab Pane 2',
-    },
-    {
-      key: '6',
-      label: 'Categories',
-      children: 'Content of Tab Pane 2',
-    },
-    {
-      key: '7',
-      label: 'Things to do',
-      children: 'Content of Tab Pane 2'
-    }
-  ];
+  const [currentIndex, setCurrentIndex] = useState(0)
 
   return (
     <HomeFooterWrapper className='home-footer'>
       <div className="home-footer-title">
         Inspiration for future getaways
       </div>
-      <Tabs defaultActiveKey="0" items={items} onChange={onChange} />;
-    </HomeFooterWrapper>
+      <div className="footer-tabs">
+        <div className="tabs">
+          {
+            homeFooterItems.map((item, index) => {
+              return (
+                <div className={`tab ${currentIndex === index ? "active" : ""}`} key={item.key} onClick={()=>setCurrentIndex(index)}>
+                  {item.label}
+                </div>
+              )
+            })
+          }
+        </div>
+        <div className="panel">
+          {
+            homeFooterItems[currentIndex].children.map((item, index) => {
+              return (
+                <div className="panel-item" key={item.id}>
+                  <div className="panel-item-title">
+                    {item.title}
+                  </div>
+                  <div className="panel-item-content">
+                    {item.text}
+                  </div>
+                </div>
+              )
+            })
+          }
+        </div>
+      </div>
+
+    </HomeFooterWrapper >
   )
 })
 

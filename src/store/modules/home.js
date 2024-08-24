@@ -4,7 +4,6 @@ const homeSlice = createSlice({
   name: "home",
   initialState: {
     selectedItem: { imgUrl: "", title: "" },
-    uName: "v"
   },
   reducers: {
     setSelectedItem: (state, action) => {

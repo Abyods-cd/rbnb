@@ -53,13 +53,13 @@ z-index: 4;
   .icons{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 18px;
     justify-content: space-between;
     align-items: center;
 
     .icon-item{
       width: 250px;
-      height: 48px;
+      height: 42px;
       border: 1px solid var(--border-color);
       border-radius: 9px;
       padding-left: 15px;

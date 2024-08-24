@@ -11,7 +11,6 @@ import XIcon from '@mui/icons-material/X';
 
 
 const SharePanel = memo(({ imgUrl, title, onClose }) => {
-  console.log(imgUrl, title, 11);
   return (
     <SharePanelWrapper>
       <div className="innerBox">
