@@ -8,6 +8,7 @@ import { useSelector } from 'react-redux';
 import { setSelectedItem } from '@/store/modules/home.js';
 import { useNavigate } from 'react-router';
 import { changeDisplayedItem } from '@/store/modules/detail.js';
+import iconsData from '@/assets/local-data/icons.json'
 
 const CarouselSection = memo(({ data }) => {
   // set showSharePanel to false
@@ -39,8 +40,15 @@ const CarouselSection = memo(({ data }) => {
     // dispatch actions to set state of home slice and detail slice
     dispatch(setSelectedItem({ imgUrl, title }))
     dispatch(changeDisplayedItem(item));
-    // navigate to /detail page
-    navigate('/detail')
+
+    // only mock the first 4 items' detail page
+    if (item.past === "true" || Number(item.itemId) > 3) {
+      // show random (id = 0-3) item's detail page because only mock the first 4 items' detail page
+      const randomId = Math.floor(Math.random() * 4);
+      console.log(randomId)
+      dispatch(changeDisplayedItem(iconsData[randomId]))
+    }
+    navigate('/detail');
   }
 
   return (

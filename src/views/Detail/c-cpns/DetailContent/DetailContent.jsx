@@ -9,12 +9,17 @@ const DetailContent = memo(() => {
   const currentItem = useSelector(state => state.detail.displayedItem)
   const [stillOpen, setStillOpen] = useState(false)
   const [requestText, setRequestText] = useState('')
+  const [requsetBtnText, setRequestBtnText] = useState('Request')
 
   // when the currentItem is changed, check if the item can still be requested
   useEffect(() => {
     if (currentItem.otherInfo[0] === '$') {
       setStillOpen(true)
       setRequestText(currentItem.otherInfo)
+    } else {
+      setStillOpen(false)
+      setRequestText("Coming soon")
+      setRequestBtnText("Notify me")
     }
   }, [currentItem])
 
@@ -37,6 +42,48 @@ const DetailContent = memo(() => {
         <div className="detail-info">
           {parse(currentItem.detailHTML)}
         </div>
+        <div className="meet-your-host-section">
+          <div className="meet-title">
+            Meet your Host
+          </div>
+          <div className="meet-card">
+            <div className="meet-card-avatar">
+              <img src={currentItem.host.hostImgUrl} alt="avatar" className='meet-img' />
+            </div>
+            <div className="meet-card-name">
+              {currentItem.host.hostName}
+            </div>
+            <div className="meet-card-year">
+              Started hosting in {currentItem.meetInfo.startHostYear}
+            </div>
+          </div>
+
+        </div>
+        <div className="host-desc">
+          <div className="icons">
+            {
+              currentItem.meetInfo.iconSvg.map((icon, index) => {
+                return (
+                  <div className="icon" key={index}>
+                    {parse(icon)}
+                  </div>
+                )
+              })
+            }
+          </div>
+          <div className="desc">
+            {
+              currentItem.meetInfo.hostDesc.map((desc, index) => {
+                return (
+                  <div className="desc-item" key={index}>
+                    {desc}
+                  </div>
+                )
+              })
+            }
+          </div>
+
+        </div>
       </div>
       <div className="r-content">
         <div className="request-box">
@@ -44,7 +91,9 @@ const DetailContent = memo(() => {
             {requestText}
           </div>
           <div className="request-btn-box">
-            <button className='request-btn'>Request</button>
+            <button className='request-btn'>
+              {requsetBtnText}
+            </button>
           </div>
         </div>
       </div>

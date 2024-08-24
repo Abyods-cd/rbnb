@@ -46,6 +46,63 @@ export const DetailContentWrapper = styled.div`
         font-weight: 550;
       }
     }
+    .meet-your-host-section{
+      .meet-title{
+        font-size: 22px;
+        padding: 20px 0;
+        font-weight: 550;
+      }
+      .meet-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 380px;
+        height: 230px;
+        border-radius: 20px;
+        border: 1px solid var(--border-color);
+        box-shadow: 0 4px 10px rgba(0,0,0,.18);
+        cursor: pointer;
+
+        .meet-card-avatar{
+          width: 30%;
+          border-radius: 50%;
+          overflow: hidden;
+          .meet-img{
+            width: 100%;
+          }
+        }
+        .meet-card-name{
+          font-size: 28px;
+          font-weight: 600;
+          margin-top: 15px;
+        }
+      }
+
+    }
+    .host-desc{
+      display: flex;
+      justify-content: start;
+      gap: 20px;
+      padding-top: 20px;
+      .icons{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 18px;
+        width: 24px;
+      }
+      .desc{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        height: 24px;
+        line-height: 24px;
+        gap: 18px;
+        font-size: 14px;
+      }
+    }
   }
   .r-content{
     flex: 1;

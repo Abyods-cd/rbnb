@@ -8,3 +8,5 @@
 22/08/2024: Added past experiences section of Home Page, extracted and encapsulated a reusable Carousel component to display data and added Share Panel component.
 
 23/08/2024: Home Page's footer done, started working on Detail page and finished images display section.
+
+24/08/2024: Detail Page done.
