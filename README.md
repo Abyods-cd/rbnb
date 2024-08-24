@@ -12,6 +12,17 @@ Rbnb is a React application inspired by Airbnb's official website, designed to h
 - **Detail Page**: Displays detailed accommodation information and an image gallery. 🖼️
 - **Data Handling**: Transitioned from local JSON data to a cloud mock API for dynamic data retrieval. 🌐
 
+## Technical Stack
+
+- **React 18**: The core library for building the user interface, utilizing the latest features for improved performance and user experience. ⚛️
+- **Redux**: For managing global state and application data flow. 🔄
+- **React Router**: For routing and navigation throughout the app. 🚪
+- **Styled-Components**: For component-level styling with CSS-in-JS. 🎨
+- **Axios**: For making HTTP requests and handling API interactions. 🌍
+- **Component Libraries**: Utilizing both **Ant Design** and **MUI** (Material-UI) for a rich set of high-quality UI components. 🏗️
+- **Apifox**: Used for API mocking and testing, enhancing the development workflow and data simulation. 🧪
+- **Craco**: For customizing the Create React App configuration. ⚙️
+
 ## Project Screenshots
 
 ### Home Page
@@ -25,17 +36,6 @@ Rbnb is a React application inspired by Airbnb's official website, designed to h
 
 ### Detail Page - V2
 ![Detail Page - V2](./src/assets/project-screenshots/rbnb-detail-page-v2.png)
-
-## Technical Stack
-
-- **React 18**: The core library for building the user interface, utilizing the latest features for improved performance and user experience. ⚛️
-- **Redux**: For managing global state and application data flow. 🔄
-- **React Router**: For routing and navigation throughout the app. 🚪
-- **Styled-Components**: For component-level styling with CSS-in-JS. 🎨
-- **Axios**: For making HTTP requests and handling API interactions. 🌍
-- **Component Libraries**: Utilizing both **Ant Design** and **MUI** (Material-UI) for a rich set of high-quality UI components. 🏗️
-- **Apifox**: Used for API mocking and testing, enhancing the development workflow and data simulation. 🧪
-- **Craco**: For customizing the Create React App configuration. ⚙️
 
 ## Mock Data Tools
 
