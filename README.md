@@ -21,11 +21,9 @@ Rbnb is a React application inspired by Airbnb's official website, designed to h
 ![Share Panel](./src/assets/project-screenshots/rbnb-share-panel.jpg)
 
 ### Detail Page - V1
-// insert
 ![Detail Page - V1](./src/assets/project-screenshots/rbnb-detail-page-v1.png)
 
 ### Detail Page - V2
-// insert
 ![Detail Page - V2](./src/assets/project-screenshots/rbnb-detail-page-v2.png)
 
 ## Technical Stack
