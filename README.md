@@ -51,6 +51,10 @@ Initially, Postman was used to mock API data. Later, the tool was switched to Ap
 - **25/08/2024**: 
   1. Switched to cloud mock API for data retrieval, replacing local JSON data. ☁️
   2. Fixed several bugs, including those caused by page navigation issues. 🐛
+- **26/08/2024**: 
+  1. Deployed this project to AWS Cloud using Nginx and AWS Linux. ☁️
+  2. Implemented continuous integration (CI) with Jenkins to automatically monitor Git repository changes and trigger rebuilds. 🔧
+
 
 
 
