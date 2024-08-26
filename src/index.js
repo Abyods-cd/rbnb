@@ -11,11 +11,9 @@ import store from './store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Suspense fallback="Page is loading">
+    <Provider store={store}>
       <BrowserRouter>
-        <Provider store={store}>
-          <App />
-        </Provider>
+        <App />
       </BrowserRouter>
-    </Suspense>
+    </Provider>
 );

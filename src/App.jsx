@@ -8,9 +8,11 @@ const App = memo(() => {
   return (
     <div className='app'>
       <Header className="header">h</Header>
-      <div className="content">
-        {useRoutes(routes)}
-      </div>
+      <Suspense fallback="Page is loading">
+        <div className="content">
+          {useRoutes(routes)}
+        </div>
+      </Suspense>
       <Footer className="footer">f</Footer>
     </div>
   )
