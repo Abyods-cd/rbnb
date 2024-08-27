@@ -10,7 +10,7 @@ Rbnb is a React application inspired by Airbnb's official website, designed to h
 - **State Management**: Managed using Redux for consistent application state. 📦
 - **Home Page**: Includes sections for past experiences, a reusable Carousel component, and a Share Panel component. 🏡
 - **Detail Page**: Displays detailed accommodation information and an image gallery. 🖼️
-- **Data Handling**: Transitioned from local JSON data to a cloud mock API for dynamic data retrieval. 🌐
+- **Data Handling**: Transitioned from local JSON data to four cloud mock APIs for dynamic data retrieval. 🌐
 
 ## Technical Stack
 
