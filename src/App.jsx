@@ -3,6 +3,7 @@ import { useRoutes } from 'react-router'
 import routes from './router'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
+import { Suspense } from 'react'
 
 const App = memo(() => {
   return (
